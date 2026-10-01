@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df7ad6fb-d3fe-4c70-b28b-1fcead1c476e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Controller/LibroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Model/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Repository/LibroRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Service/LibroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Model/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Model/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/java/com/example/BaseDatosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/java/com/example/model/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/java/com/example/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/test/java/com/example/base_datos/BaseDatosApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
