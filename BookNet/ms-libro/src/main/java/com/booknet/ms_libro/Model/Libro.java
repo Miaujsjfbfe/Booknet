@@ -32,8 +32,7 @@ public class Libro {
 
     private LocalDate fechaPublicacion;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "categoria_id", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Categoria categoria;
 
     @Column(nullable = false)

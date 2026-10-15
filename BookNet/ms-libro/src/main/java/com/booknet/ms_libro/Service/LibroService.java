@@ -45,6 +45,7 @@ public class LibroService {
         // Validacion para duplicados por ISBN
         if (libroRepository.existsByIsbn(libro.getIsbn())) {
             log.warn("Intento de crear libro con ISBN duplicado: {}", libro.getIsbn());
+
             throw new RuntimeException("Ya existe un libro registrado con ese ISBN.");
         }
 
@@ -58,6 +59,7 @@ public class LibroService {
         // Validacion que impide duplicados en ISBN al actualizar
         if (libroRepository.existsByIsbn(datos.getIsbn()) && !libro.getIsbn().equals(datos.getIsbn())) {
             log.warn("Intento de actualizar libro ID {} con un ISBN ya existente: {}", id, datos.getIsbn());
+
             throw new RuntimeException("El ISBN ingresado ya pertenece a otro libro.");
         }
 

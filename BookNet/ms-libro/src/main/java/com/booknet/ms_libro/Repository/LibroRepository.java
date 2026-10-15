@@ -16,7 +16,7 @@ public interface LibroRepository extends JpaRepository<Libro, Long> {
     Optional<Libro> findByIsbn(String isbn);
 
     // Existe por ISBN
-    Optional<Libro> existsByIsbn(String isbn);
+    boolean existsByIsbn(String isbn);
 
 
     // Buscar libros por categoría

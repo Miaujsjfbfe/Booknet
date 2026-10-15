@@ -5,17 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df7ad6fb-d3fe-4c70-b28b-1fcead1c476e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/java/com/example/BaseDatosApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/java/com/example/model/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/java/com/example/model/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../booknet_fake/src/test/java/com/example/base_datos/BaseDatosApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-multas/src/main/java/com/booknet/ms_multas/Controller/MultaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-multas/src/main/java/com/booknet/ms_multas/Model/EstadoMulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-multas/src/main/java/com/booknet/ms_multas/Model/Multa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-multas/src/main/java/com/booknet/ms_multas/Repository/MultaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-multas/src/main/java/com/booknet/ms_multas/Service/MultaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-prestamos/src/main/java/com/booknet/ms_prestamos/Controller/PrestamoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-prestamos/src/main/java/com/booknet/ms_prestamos/Model/EstadoPrestamo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-prestamos/src/main/java/com/booknet/ms_prestamos/Model/Prestamo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-prestamos/src/main/java/com/booknet/ms_prestamos/Repository/PrestamoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-prestamos/src/main/java/com/booknet/ms_prestamos/Service/PrestamoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-reportes/src/main/java/com/booknet/ms_reportes/Controller/ReporteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-reportes/src/main/java/com/booknet/ms_reportes/DTO/ReporteMultasDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-reportes/src/main/java/com/booknet/ms_reportes/DTO/ReportePrestamosDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-reportes/src/main/java/com/booknet/ms_reportes/DTO/ResumenGeneralDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-reportes/src/main/java/com/booknet/ms_reportes/Service/ReporteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/com/booknet/ms_usuarios/Controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/com/booknet/ms_usuarios/Model/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/com/booknet/ms_usuarios/Model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/com/booknet/ms_usuarios/Repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-usuarios/src/main/java/com/booknet/ms_usuarios/Service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Controller/LibroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Controller/LibroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Model/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Model/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Repository/LibroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Repository/LibroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Service/LibroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-libro/src/main/java/com/booknet/ms_libro/Service/LibroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-libro/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-libro/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-multas/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-multas/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-prestamos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-prestamos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reportes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reportes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-usuarios/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +71,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BaseDatosApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pazoy/Desktop/Java Electivo/BookNet&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.BaseDatosApplication.executor": "Run",
+    "Spring Boot.MsLibroApplication.executor": "Run",
+    "Spring Boot.MsMultasApplication.executor": "Run",
+    "Spring Boot.MsPrestamosApplication.executor": "Run",
+    "Spring Boot.MsUsuariosApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pazoy/Desktop/Java Electivo/BookNet"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
